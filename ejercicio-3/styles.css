@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menu{
+  background-color: lightgreen;
+  border: 4px solid darkgreen;
+  padding: 12px;
+  display: flexbox;
+}
+
+.container, .container-2{
+  background-color: lightblue;
+  padding: 12px;
+  border: 4px solid blue;
+  display: flex;
+  }
+  
+.item-1,.item-2,.item-3 {
+    background-color: peachpuff;
+    border: 4px solid salmon;
+    height: 48px;
+    flex: 1;
+    margin: 4px;
+    display: flex;
+}
+
+.contain-1,.contain-2{
+  background-color: red;
+  border: 4px solid rgb(91, 1, 1);
+  height: 36px;
+  display: flex;
+  margin: 3px;
+  flex: 1;
+}
+
+.box-1,.box-2,.box-3{
+  background-color: lightcoral;
+  border: 4px solid rgb(119, 2, 2);
+  margin: 4px;
+  flex: 1;
+  display: flex;
+}
+
+.central-box {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.subcon{
+  display: flex;
+  height: 300px;
+}
+
+.chart-1,.chart-4{
+  background-color: azure;
+  border: 4px solid purple;
+  height: 48px;
+  flex: 1;
+  margin: 4px;
+  display: flex;
+}
+
+.chart-2,.chart-3{
+  background-color: peachpuff;
+  border: 4px solid salmon;
+  height: 48px;
+  flex: 0.5;
+  margin: 4px;
+  display: flex;
+}
